@@ -143,6 +143,9 @@ th{
   text-align: left;
 }
 
+a{
+  color: #0e7298; 
+}
 
 /*SECTION elements*/
 
@@ -217,8 +220,9 @@ th{
   border-color:gray;
   padding:10px 20px;
   border-width: thin;
-  height: 210px;
+  /*height: 210px;*/
   overflow: hidden;
+  overflow-wrap: anywhere;
 }
 
 .white-card-large{
@@ -229,7 +233,7 @@ th{
   padding:10px 20px;
   border-width: thin;
   /*margin: 5px 5px;*/
-  min-height: 430px;
+  min-height: 612px;
 }
 .white-card::after {
   content: "";
